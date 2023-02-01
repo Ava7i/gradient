@@ -4,7 +4,7 @@
 import numpy as np
 # Initialise some parameters
 x = np.random.randn(10,1)
-y = 5*x + np.random.rand()
+y = 7*x + np.random.rand()
 # Parameters
 w = 0.0 
 b = 0.0 
@@ -27,7 +27,7 @@ def descend(x, y, w, b, learning_rate):
     return w, b 
 
 # Iteratively make updates
-for epoch in range(800): 
+for epoch in range(1000): 
     w,b = descend(x,y,w,b,learning_rate)
     yhat = w*x + b
     loss = np.divide(np.sum((y-yhat)**2, axis=0), x.shape[0]) 
