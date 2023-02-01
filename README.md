@@ -5,8 +5,6 @@
 
 
 
-
-
 ###  Gradient Descent 
 
 
@@ -14,3 +12,15 @@ Consider you're a hiker and you climed top of the mountain but suddenly you atta
 
 ### In a nutshell
 Gradient descent is an optimization algorithm used to minimize a cost function in machine learning and deep learning. It works by iteratively adjusting the parameters of a model in the direction of the steepest decrease in the cost function.In this repository, I build a gradient descent using Google Jax that accelerate my code.Without jax code also available in grad.py file. The main purpose of this repo is give a berief description about gradient descent.
+
+ ### Some interesting fact about Gradient Descent
+ 
+
+Gradient descent was originally developed for solving linear regression problems, but it is now widely used in deep learning and artificial neural networks.
+The gradient descent algorithm works by updating the parameters in the direction of the negative gradient, which is the direction of the steepest decrease in the cost function.
+There are multiple variations of gradient descent, including batch gradient descent, mini-batch gradient descent, and stochastic gradient descent. Each of these variations has its own advantages and disadvantages and is used in different types of problems.
+One of the main advantages of gradient descent is that it is relatively easy to implement and is computationally efficient.
+Gradient descent is sensitive to the choice of learning rate, which determines the step size of each iteration. A too large learning rate can cause the algorithm to converge slowly or not at all, while a too small learning rate can result in a slow convergence.
+The convergence of gradient descent can be improved by using optimization techniques such as momentum, adaptive learning rate, and regularization.
+Gradient descent is not guaranteed to find the global minimum of the cost function and may get stuck in local minima. This can be addressed by using more advanced optimization algorithms, such as second-order methods or genetic algorithms.
+Gradient descent has been used to solve a wide range of problems, including image classification, natural language processing, and autonomous driving.
