@@ -1,15 +1,16 @@
-# Gradient Descent for Linear Regression
-# yhat = wx + b 
-# loss = (y-yhat)**2 / N 
-import numpy as np
+
+import jax.numpy as jnp
+from jax import random
 # Initialise some parameters
-x = np.random.randn(10,1)
-y = 7*x + np.random.rand()
+key = random.PRNGKey(0)
+x = random.normal(key, (10,))
+#x = jnp.random.randn(10,1)
+y = 5*x + random.normal(key, ())
 # Parameters
 w = 0.0 
 b = 0.0 
 # Hyperparameter 
-learning_rate = 0.01
+learning_rate = 0.001
 
 # Create gradient descent function
 def descend(x, y, w, b, learning_rate): 
@@ -27,9 +28,9 @@ def descend(x, y, w, b, learning_rate):
     return w, b 
 
 # Iteratively make updates
-for epoch in range(1000): 
+for epoch in range(500): 
     w,b = descend(x,y,w,b,learning_rate)
     yhat = w*x + b
-    loss = np.divide(np.sum((y-yhat)**2, axis=0), x.shape[0]) 
+    loss = jnp.divide(jnp.sum((y-yhat)**2, axis=0), x.shape[0]) 
     print(f'{epoch} loss is {loss}, paramters w:{w}, b:{b}')
 print(x,y)
