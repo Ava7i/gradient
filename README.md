@@ -15,6 +15,8 @@ In this analogy, the size of the ingredient adjustments can be thought of as the
 
 So, whether you're a chef whipping up a tasty dish or a machine learning algorithm trying to minimize a cost function, the key to success is finding the right ingredients at the right time!
 
+![](https://github.com/Ava7i/gradient/blob/master/gradient_descent_line_graph.gif)
+
 
 ## In a nutshell
 Gradient descent is an optimization algorithm used to minimize a cost function in machine learning and deep learning. It works by iteratively adjusting the parameters of a model in the direction of the steepest decrease in the cost function.In this repository, I build a gradient descent using Google JAX that accelerate my code.Without JAX, code also available in grad.py file. The main purpose of this repo is give a berief description about gradient descent using JAX.
