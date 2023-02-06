@@ -157,6 +157,7 @@ For JAX you need to install the JAX then run the py file. You can easily store y
 python -u grad_jax.py > results.txt
 
 ```
+Results for JAX, store in results125.txt file
 ### Usage
 
 Import jax.numpy as jnp. JAX NumPy is a version of NumPy that is optimized for use with the JAX library. JAX is a library for machine learning research that provides functionality for automatic differentiation, a process that allows gradient computation with respect to inputs of a function. JAX NumPy provides an interface similar to NumPy but with JAX's differentiation capabilities integrated.
@@ -177,6 +178,7 @@ b = 0.0
 learning_rate = 0.001
 
 ```
+
 
 ## Documentation 
 
