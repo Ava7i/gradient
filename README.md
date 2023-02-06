@@ -16,11 +16,29 @@ Gradient descent is an optimization algorithm used to minimize a cost function i
  ### Some interesting fact about Gradient Descent
  
 
+### 1.
 Gradient descent was originally developed for solving linear regression problems, but it is now widely used in deep learning and artificial neural networks.
-The gradient descent algorithm works by updating the parameters in the direction of the negative gradient, which is the direction of the steepest decrease in the cost function.
+### 2. 
+Gradient descent is not the only optimization algorithm: Although gradient descent is widely used, there are other optimization algorithms that may be better suited to specific problem types, such as conjugate gradient, BFGS, and L-BFGS.
+
+### 3. 
 There are multiple variations of gradient descent, including batch gradient descent, mini-batch gradient descent, and stochastic gradient descent. Each of these variations has its own advantages and disadvantages and is used in different types of problems.
+### 4.
+Gradient descent has different variants: There are several variants of gradient descent, including batch gradient descent, stochastic gradient descent, and mini-batch gradient descent, each of which have their own strengths and weaknesses.
+
+### 5.
 One of the main advantages of gradient descent is that it is relatively easy to implement and is computationally efficient.
-Gradient descent is sensitive to the choice of learning rate, which determines the step size of each iteration. A too large learning rate can cause the algorithm to converge slowly or not at all, while a too small learning rate can result in a slow convergence.
+
+### 6.
+Gradient descent is sensitive to the choice of learning rate, which determines the step size of each iteration. A too large learning rate can cause the algorithm to converge slowly or not at all, while a too small learning rate can result in a slow convergence.Too high of a learning rate may result in oscillation or divergence, while too low of a learning rate may result in slow convergence.
+
+### 7.
+
+Gradient descent can be used for non-differentiable functions: Although gradient descent is typically used with differentiable functions, it can also be used with non-differentiable functions by using subgradients, which allow for a generalization of gradient descent to non-differentiable functions.
+### 8.
 The convergence of gradient descent can be improved by using optimization techniques such as momentum, adaptive learning rate, and regularization.
+### 9.
 Gradient descent is not guaranteed to find the global minimum of the cost function and may get stuck in local minima. This can be addressed by using more advanced optimization algorithms, such as second-order methods or genetic algorithms.
-Gradient descent has been used to solve a wide range of problems, including image classification, natural language processing, and autonomous driving.
+### 10.
+Gradient descent can be parallelized to run on multiple processors or GPUs, which can greatly speed up the optimization process.
+
