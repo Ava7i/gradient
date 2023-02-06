@@ -162,7 +162,7 @@ Import jax.numpy as jnp. JAX NumPy is a version of NumPy that is optimized for u
 import jax.numpy as jnp
 from jax import random
 ```
-### Initialise some parameters
+#### Initialise some parameters
 ```
 key = random.PRNGKey(0)
 x = random.normal(key, (10,))
