@@ -180,9 +180,15 @@ learning_rate = 0.001
 
 For details about the JAX, see the
 [reference documentation](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html/).
+
+
 For details about the JAX, see the
 [reference documentation](https://github.com/google/jax).
+
+
 For details about the Gradient Descent, see the
-[reference documentation](https://arxiv.org/abs/1609.04747).
+[paper](https://arxiv.org/abs/1609.04747).
 
 
+
+More details read this [Link](https://kevinbinz.com/2019/05/26/intro-gradient-descent/)
